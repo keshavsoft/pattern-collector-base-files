@@ -45,3 +45,15 @@ jobs:
           else
             echo "already_published=false" >> $GITHUB_OUTPUT
           fi
+
+      - name: Generate Check Summary
+        run: |
+          echo "### 🔍 NPM Version Check" >> $GITHUB_STEP_SUMMARY
+          echo "* **Package**: \`${{ steps.check-step.outputs.package_name }}\`" >> $GITHUB_STEP_SUMMARY
+          echo "* **Current Local Version**: \`${{ steps.check-step.outputs.package_version }}\`" >> $GITHUB_STEP_SUMMARY
+          echo "* **Latest Registry Version**: \`${{ steps.check-step.outputs.before_version }}\`" >> $GITHUB_STEP_SUMMARY
+          if [ "${{ steps.check-step.outputs.already_published }}" = "true" ]; then
+            echo "* **Status**: ⚠️ Version already published on NPM. Publish will be skipped." >> $GITHUB_STEP_SUMMARY
+          else
+            echo "* **Status**: 🚀 Version is new. Ready to publish." >> $GITHUB_STEP_SUMMARY
+          fi
