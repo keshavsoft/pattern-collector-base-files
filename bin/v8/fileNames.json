@@ -4,22 +4,52 @@
         "fileName": "app.js",
         "temporaryValue": "routerFrom",
         "searchRules": [
-            "npmImport",
-            "routerImport",
-            "appConsumption",
-            "export",
-            "variableDeclaration"
+            {
+                "searchKey": "npmImport",
+                "regexKey": "importNpmRegex"
+            },
+            {
+                "searchKey": "routerImport",
+                "regexKey": "importRegex"
+            },
+            {
+                "searchKey": "appConsumption",
+                "regexKey": "consumptionRegex"
+            },
+            {
+                "searchKey": "export",
+                "regexKey": "exportRegex"
+            },
+            {
+                "searchKey": "variableDeclaration",
+                "regexKey": "variablesDeclareHere"
+            }
         ]
     },
     "fromRoutesJs": {
         "fileName": "routes.js",
         "temporaryValue": "routerFrom",
         "searchRules": [
-            "npmImport",
-            "routerImport",
-            "routerConsumption",
-            "export",
-            "variableDeclaration"
+            {
+                "searchKey": "npmImport",
+                "regexKey": "importNpmRegex"
+            },
+            {
+                "searchKey": "routerImport",
+                "regexKey": "importRegex"
+            },
+            {
+                "searchKey": "routerConsumption",
+                "regexKey": "consumptionRegex"
+            },
+            {
+                "searchKey": "export",
+                "regexKey": "exportRegex"
+            },
+            {
+                "searchKey": "variableDeclaration",
+                "regexKey": "variablesDeclareHere"
+            }
         ]
     },
     "fromRoutesJsEnd": {
@@ -27,11 +57,26 @@
         "temporaryValue": "routerFrom",
         "hookTo": "fromEndPointsJs",
         "searchRules": [
-            "npmImport",
-            "endpointImport",
-            "routerConsumption",
-            "export",
-            "variableDeclaration"
+            {
+                "searchKey": "npmImport",
+                "regexKey": "importNpmRegex"
+            },
+            {
+                "searchKey": "endpointImport",
+                "regexKey": "importRegex"
+            },
+            {
+                "searchKey": "routerConsumption",
+                "regexKey": "consumptionRegex"
+            },
+            {
+                "searchKey": "export",
+                "regexKey": "exportRegex"
+            },
+            {
+                "searchKey": "variableDeclaration",
+                "regexKey": "variablesDeclareHere"
+            }
         ]
     },
     "fromEndPointsJs": {
@@ -39,11 +84,26 @@
         "temporaryValue": "funcFrom",
         "hookTo": "fromControllerJs",
         "searchRules": [
-            "npmImport",
-            "controllerImport",
-            "httpRoute",
-            "export",
-            "variableDeclaration"
+            {
+                "searchKey": "npmImport",
+                "regexKey": "importNpmRegex"
+            },
+            {
+                "searchKey": "controllerImport",
+                "regexKey": "importRegex"
+            },
+            {
+                "searchKey": "httpRoute",
+                "regexKey": "consumptionRegex"
+            },
+            {
+                "searchKey": "export",
+                "regexKey": "exportRegex"
+            },
+            {
+                "searchKey": "variableDeclaration",
+                "regexKey": "variablesDeclareHere"
+            }
         ]
     },
     "tableGetShowAll": {
@@ -51,11 +111,26 @@
         "temporaryValue": "funcFrom",
         "hookTo": "fromControllerJs",
         "searchRules": [
-            "npmImport",
-            "controllerImport",
-            "httpRoute",
-            "export",
-            "variableDeclaration"
+            {
+                "searchKey": "npmImport",
+                "regexKey": "importNpmRegex"
+            },
+            {
+                "searchKey": "controllerImport",
+                "regexKey": "importRegex"
+            },
+            {
+                "searchKey": "httpRoute",
+                "regexKey": "consumptionRegex"
+            },
+            {
+                "searchKey": "export",
+                "regexKey": "exportRegex"
+            },
+            {
+                "searchKey": "variableDeclaration",
+                "regexKey": "variablesDeclareHere"
+            }
         ]
     },
     "tableGetFind": {
@@ -63,20 +138,44 @@
         "temporaryValue": "funcFrom",
         "hookTo": "fromControllerJs",
         "searchRules": [
-            "npmImport",
-            "controllerImport",
-            "httpRoute",
-            "export",
-            "variableDeclaration"
+            {
+                "searchKey": "npmImport",
+                "regexKey": "importNpmRegex"
+            },
+            {
+                "searchKey": "controllerImport",
+                "regexKey": "importRegex"
+            },
+            {
+                "searchKey": "httpRoute",
+                "regexKey": "consumptionRegex"
+            },
+            {
+                "searchKey": "export",
+                "regexKey": "exportRegex"
+            },
+            {
+                "searchKey": "variableDeclaration",
+                "regexKey": "variablesDeclareHere"
+            }
         ]
     },
     "fromControllerJs": {
         "fileName": "controller.js",
         "temporaryValue": "controllerFrom",
         "searchRules": [
-            "npmImport",
-            "export",
-            "variableDeclaration"
+            {
+                "searchKey": "npmImport",
+                "regexKey": "importNpmRegex"
+            },
+            {
+                "searchKey": "export",
+                "regexKey": "exportRegex"
+            },
+            {
+                "searchKey": "variableDeclaration",
+                "regexKey": "variablesDeclareHere"
+            }
         ]
     },
     "tablePostShowAll": {
@@ -84,11 +183,26 @@
         "temporaryValue": "funcFrom",
         "hookTo": "fromControllerJs",
         "searchRules": [
-            "npmImport",
-            "controllerImport",
-            "httpRoute",
-            "export",
-            "variableDeclaration"
+            {
+                "searchKey": "npmImport",
+                "regexKey": "importNpmRegex"
+            },
+            {
+                "searchKey": "controllerImport",
+                "regexKey": "importRegex"
+            },
+            {
+                "searchKey": "httpRoute",
+                "regexKey": "consumptionRegex"
+            },
+            {
+                "searchKey": "export",
+                "regexKey": "exportRegex"
+            },
+            {
+                "searchKey": "variableDeclaration",
+                "regexKey": "variablesDeclareHere"
+            }
         ]
     }
 }

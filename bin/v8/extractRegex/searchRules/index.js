@@ -10,11 +10,11 @@ const searchRules = () => {
         output[stageKey] = {};
 
         for (const ruleName of stage.searchRules ?? []) {
-            if (template[ruleName]) {
-                output[stageKey][ruleName] = template[ruleName];
-            }
-        }
-    }
+            if (template[ruleName?.searchKey]) {
+                output[stageKey][ruleName?.regexKey] = template[ruleName?.searchKey];
+            };
+        };
+    };
 
     return output;
 };
