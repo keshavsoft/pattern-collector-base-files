@@ -1,0 +1,94 @@
+{
+    "version": "8.1",
+    "fromAppJs": {
+        "fileName": "app.js",
+        "temporaryValue": "routerFrom",
+        "searchRules": [
+            "npmImport",
+            "routerImport",
+            "appConsumption",
+            "export",
+            "variableDeclaration"
+        ]
+    },
+    "fromRoutesJs": {
+        "fileName": "routes.js",
+        "temporaryValue": "routerFrom",
+        "searchRules": [
+            "npmImport",
+            "routerImport",
+            "routerConsumption",
+            "export",
+            "variableDeclaration"
+        ]
+    },
+    "fromRoutesJsEnd": {
+        "fileName": "routes.js",
+        "temporaryValue": "routerFrom",
+        "hookTo": "fromEndPointsJs",
+        "searchRules": [
+            "npmImport",
+            "endpointImport",
+            "routerConsumption",
+            "export",
+            "variableDeclaration"
+        ]
+    },
+    "fromEndPointsJs": {
+        "fileName": "end-points.js",
+        "temporaryValue": "funcFrom",
+        "hookTo": "fromControllerJs",
+        "searchRules": [
+            "npmImport",
+            "controllerImport",
+            "httpRoute",
+            "export",
+            "variableDeclaration"
+        ]
+    },
+    "tableGetShowAll": {
+        "fileName": "end-points.js",
+        "temporaryValue": "funcFrom",
+        "hookTo": "fromControllerJs",
+        "searchRules": [
+            "npmImport",
+            "controllerImport",
+            "httpRoute",
+            "export",
+            "variableDeclaration"
+        ]
+    },
+    "tableGetFind": {
+        "fileName": "end-points.js",
+        "temporaryValue": "funcFrom",
+        "hookTo": "fromControllerJs",
+        "searchRules": [
+            "npmImport",
+            "controllerImport",
+            "httpRoute",
+            "export",
+            "variableDeclaration"
+        ]
+    },
+    "fromControllerJs": {
+        "fileName": "controller.js",
+        "temporaryValue": "controllerFrom",
+        "searchRules": [
+            "npmImport",
+            "export",
+            "variableDeclaration"
+        ]
+    },
+    "tablePostShowAll": {
+        "fileName": "end-points.js",
+        "temporaryValue": "funcFrom",
+        "hookTo": "fromControllerJs",
+        "searchRules": [
+            "npmImport",
+            "controllerImport",
+            "httpRoute",
+            "export",
+            "variableDeclaration"
+        ]
+    }
+}
