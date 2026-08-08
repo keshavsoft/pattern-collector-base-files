@@ -12,6 +12,9 @@
     "extractor"
   ],
   "dependencies": {},
+  "devDependencies": {
+    "ks-delete-workflow-runs": "^1.0.0"
+  },
   "type": "module",
   "exports": {
     ".": "./index.js",
