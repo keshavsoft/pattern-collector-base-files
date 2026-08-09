@@ -1,0 +1,346 @@
+{
+    "version": "10.1",
+    "fromAppJs": {
+        "fileName": "app.js",
+        "defaultRouteToHook": "api",
+        "temporaryValue": "routerFrom",
+        "searchRules": [
+            {
+                "searchKey": "npmImport",
+                "regexKey": "importNpmRegex"
+            },
+            {
+                "searchKey": "routerImport",
+                "regexKey": "importRegex"
+            },
+            {
+                "searchKey": "appConsumption",
+                "regexKey": "consumptionRegex"
+            },
+            {
+                "searchKey": "export",
+                "regexKey": "exportRegex"
+            },
+            {
+                "searchKey": "variableDeclaration",
+                "regexKey": "variablesDeclareHere"
+            }
+        ],
+        "parseRules": [
+            {
+                "searchKey": "npmImport",
+                "parseKey": "importNpmRegex"
+            },
+            {
+                "searchKey": "routerImport",
+                "parseKey": "importRegex"
+            },
+            {
+                "searchKey": "appConsumption",
+                "parseKey": "consumptionRegex"
+            },
+            {
+                "searchKey": "export",
+                "parseKey": "exportRegex"
+            }
+        ]
+    },
+    "fromRoutesJs": {
+        "fileName": "routes.js",
+        "defaultRouteToHook": "v1",
+        "temporaryValue": "routerFrom",
+        "searchRules": [
+            {
+                "searchKey": "npmImport",
+                "regexKey": "importNpmRegex"
+            },
+            {
+                "searchKey": "routerImport",
+                "regexKey": "importRegex"
+            },
+            {
+                "searchKey": "routerConsumption",
+                "regexKey": "consumptionRegex"
+            },
+            {
+                "searchKey": "export",
+                "regexKey": "exportRegex"
+            },
+            {
+                "searchKey": "variableDeclaration",
+                "regexKey": "variablesDeclareHere"
+            }
+        ],
+        "parseRules": [
+            {
+                "searchKey": "npmImport",
+                "parseKey": "importNpmRegex"
+            },
+            {
+                "searchKey": "routerImport",
+                "parseKey": "importRegex"
+            },
+            {
+                "searchKey": "routerConsumption",
+                "parseKey": "consumptionRegex"
+            },
+            {
+                "searchKey": "export",
+                "parseKey": "exportRegex"
+            }
+        ]
+    },
+    "fromRoutesJsEnd": {
+        "fileName": "routes.js",
+        "temporaryValue": "routerFrom",
+        "hookTo": "fromEndPointsJs",
+        "searchRules": [
+            {
+                "searchKey": "npmImport",
+                "regexKey": "importNpmRegex"
+            },
+            {
+                "searchKey": "endpointImport",
+                "regexKey": "importRegex"
+            },
+            {
+                "searchKey": "routerConsumption",
+                "regexKey": "consumptionRegex"
+            },
+            {
+                "searchKey": "export",
+                "regexKey": "exportRegex"
+            },
+            {
+                "searchKey": "variableDeclaration",
+                "regexKey": "variablesDeclareHere"
+            }
+        ],
+        "parseRules": [
+            {
+                "searchKey": "npmImport",
+                "parseKey": "importNpmRegex"
+            },
+            {
+                "searchKey": "endpointImport",
+                "parseKey": "importRegex"
+            },
+            {
+                "searchKey": "routerConsumption",
+                "parseKey": "consumptionRegex"
+            },
+            {
+                "searchKey": "export",
+                "parseKey": "exportRegex"
+            }
+        ]
+    },
+    "fromEndPointsJs": {
+        "fileName": "end-points.js",
+        "temporaryValue": "funcFrom",
+        "hookTo": "fromControllerJs",
+        "searchRules": [
+            {
+                "searchKey": "npmImport",
+                "regexKey": "importNpmRegex"
+            },
+            {
+                "searchKey": "controllerImport",
+                "regexKey": "importRegex"
+            },
+            {
+                "searchKey": "httpRoute",
+                "regexKey": "consumptionRegex"
+            },
+            {
+                "searchKey": "export",
+                "regexKey": "exportRegex"
+            },
+            {
+                "searchKey": "variableDeclaration",
+                "regexKey": "variablesDeclareHere"
+            }
+        ],
+        "parseRules": [
+            {
+                "searchKey": "npmImport",
+                "parseKey": "importNpmRegex"
+            },
+            {
+                "searchKey": "controllerImport",
+                "parseKey": "importRegex"
+            },
+            {
+                "searchKey": "httpRoute",
+                "parseKey": "consumptionRegex"
+            },
+            {
+                "searchKey": "export",
+                "parseKey": "exportRegex"
+            }
+        ]
+    },
+    "fromControllerJs": {
+        "fileName": "controller.js",
+        "temporaryValue": "controllerFrom",
+        "searchRules": [
+            {
+                "searchKey": "npmImport",
+                "regexKey": "importNpmRegex"
+            },
+            {
+                "searchKey": "export",
+                "regexKey": "exportRegex"
+            },
+            {
+                "searchKey": "variableDeclaration",
+                "regexKey": "variablesDeclareHere"
+            }
+        ],
+        "parseRules": [
+            {
+                "searchKey": "npmImport",
+                "parseKey": "importNpmRegex"
+            },
+            {
+                "searchKey": "export",
+                "parseKey": "exportRegex"
+            }
+        ]
+    },
+    "tableGetShowAll": {
+        "fileName": "end-points.js",
+        "temporaryValue": "funcFrom",
+        "hookTo": "fromControllerJs",
+        "searchRules": [
+            {
+                "searchKey": "npmImport",
+                "regexKey": "importNpmRegex"
+            },
+            {
+                "searchKey": "controllerImport",
+                "regexKey": "importRegex"
+            },
+            {
+                "searchKey": "httpRoute",
+                "regexKey": "consumptionRegex"
+            },
+            {
+                "searchKey": "export",
+                "regexKey": "exportRegex"
+            },
+            {
+                "searchKey": "variableDeclaration",
+                "regexKey": "variablesDeclareHere"
+            }
+        ],
+        "parseRules": [
+            {
+                "searchKey": "npmImport",
+                "parseKey": "importNpmRegex"
+            },
+            {
+                "searchKey": "controllerImport",
+                "parseKey": "importRegex"
+            },
+            {
+                "searchKey": "httpRoute",
+                "parseKey": "consumptionRegex"
+            },
+            {
+                "searchKey": "export",
+                "parseKey": "exportRegex"
+            }
+        ]
+    },
+    "tableGetFind": {
+        "fileName": "end-points.js",
+        "temporaryValue": "funcFrom",
+        "hookTo": "fromControllerJs",
+        "searchRules": [
+            {
+                "searchKey": "npmImport",
+                "regexKey": "importNpmRegex"
+            },
+            {
+                "searchKey": "controllerImport",
+                "regexKey": "importRegex"
+            },
+            {
+                "searchKey": "httpRoute",
+                "regexKey": "consumptionRegex"
+            },
+            {
+                "searchKey": "export",
+                "regexKey": "exportRegex"
+            },
+            {
+                "searchKey": "variableDeclaration",
+                "regexKey": "variablesDeclareHere"
+            }
+        ],
+        "parseRules": [
+            {
+                "searchKey": "npmImport",
+                "parseKey": "importNpmRegex"
+            },
+            {
+                "searchKey": "controllerImport",
+                "parseKey": "importRegex"
+            },
+            {
+                "searchKey": "httpRoute",
+                "parseKey": "consumptionRegex"
+            },
+            {
+                "searchKey": "export",
+                "parseKey": "exportRegex"
+            }
+        ]
+    },
+    "tablePostShowAll": {
+        "fileName": "end-points.js",
+        "temporaryValue": "funcFrom",
+        "hookTo": "fromControllerJs",
+        "searchRules": [
+            {
+                "searchKey": "npmImport",
+                "regexKey": "importNpmRegex"
+            },
+            {
+                "searchKey": "controllerImport",
+                "regexKey": "importRegex"
+            },
+            {
+                "searchKey": "httpRoute",
+                "regexKey": "consumptionRegex"
+            },
+            {
+                "searchKey": "export",
+                "regexKey": "exportRegex"
+            },
+            {
+                "searchKey": "variableDeclaration",
+                "regexKey": "variablesDeclareHere"
+            }
+        ],
+        "parseRules": [
+            {
+                "searchKey": "npmImport",
+                "parseKey": "importNpmRegex"
+            },
+            {
+                "searchKey": "controllerImport",
+                "parseKey": "importRegex"
+            },
+            {
+                "searchKey": "httpRoute",
+                "parseKey": "consumptionRegex"
+            },
+            {
+                "searchKey": "export",
+                "parseKey": "exportRegex"
+            }
+        ]
+    }
+}
