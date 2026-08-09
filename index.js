@@ -22,9 +22,13 @@ const narrationJson = () => {
     return latestModule.narrationJson;
 };
 
+const getTemplatePath = () => {
+    return latestModule.getTemplatePath;
+};
+
 const apiVersion = v;
 
 export {
     extractRegex, fileNamesJson, outputStructureJson,
-    apiVersion, narrationJson
+    apiVersion, narrationJson, getTemplatePath
 };
