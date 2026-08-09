@@ -26,9 +26,13 @@ const getTemplatePath = () => {
     return latestModule.getTemplatePath;
 };
 
+const getTemplateFiles = (args) => {
+    return latestModule.getTemplateFiles(args);
+};
+
 const apiVersion = v;
 
 export {
     extractRegex, fileNamesJson, outputStructureJson,
-    apiVersion, narrationJson, getTemplatePath
+    apiVersion, narrationJson, getTemplatePath, getTemplateFiles
 };
