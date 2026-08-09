@@ -1,5 +1,5 @@
 {
-    "version": "10.1",
+    "version": "11.1",
     "fromAppJs": {
         "fileName": "app.js",
         "defaultRouteToHook": "api",
@@ -94,6 +94,12 @@
         "fileName": "routes.js",
         "temporaryValue": "routerFrom",
         "hookTo": "fromEndPointsJs",
+        "defaultRouteToHook": "table1",
+        "inputsFromUser": {
+            "raka": "",
+            "poka": "",
+            "tableName": ""
+        },
         "searchRules": [
             {
                 "searchKey": "npmImport",
