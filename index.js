@@ -18,6 +18,13 @@ const outputStructureJson = () => {
     return latestModule.outputStructureJson;
 };
 
+const narrationJson = () => {
+    return latestModule.narrationJson;
+};
+
 const apiVersion = v;
 
-export { extractRegex, fileNamesJson, outputStructureJson, apiVersion };
+export {
+    extractRegex, fileNamesJson, outputStructureJson,
+    apiVersion, narrationJson
+};
