@@ -2,8 +2,13 @@
     "version": "11.1",
     "fromAppJs": {
         "fileName": "app.js",
-        "defaultRouteToHook": "api",
         "temporaryValue": "routerFrom",
+        "hookTo": "fromRoutesJs",
+        "defaultRouteToHook": "api",
+        "inputsFromUser": {
+            "raka": "",
+            "poka": ""
+        },
         "searchRules": [
             {
                 "searchKey": "npmImport",
@@ -47,8 +52,12 @@
     },
     "fromRoutesJs": {
         "fileName": "routes.js",
-        "defaultRouteToHook": "v1",
         "temporaryValue": "routerFrom",
+        "defaultRouteToHook": "v1",
+        "inputsFromUser": {
+            "raka": "",
+            "poka": ""
+        },
         "searchRules": [
             {
                 "searchKey": "npmImport",
@@ -218,6 +227,11 @@
         "fileName": "end-points.js",
         "temporaryValue": "funcFrom",
         "hookTo": "fromControllerJs",
+        "defaultRouteToHook": "showAll",
+        "inputsFromUser": {
+            "raka": "",
+            "poka": ""
+        },
         "searchRules": [
             {
                 "searchKey": "npmImport",
@@ -263,6 +277,11 @@
         "fileName": "end-points.js",
         "temporaryValue": "funcFrom",
         "hookTo": "fromControllerJs",
+        "defaultRouteToHook": "find",
+        "inputsFromUser": {
+            "raka": "",
+            "poka": ""
+        },
         "searchRules": [
             {
                 "searchKey": "npmImport",
