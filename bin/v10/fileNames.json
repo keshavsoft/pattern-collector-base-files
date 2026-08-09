@@ -1,7 +1,8 @@
 {
-    "version": "9.1",
+    "version": "10.1",
     "fromAppJs": {
         "fileName": "app.js",
+        "defaultRouteToHook": "api",
         "temporaryValue": "routerFrom",
         "searchRules": [
             {
@@ -46,6 +47,7 @@
     },
     "fromRoutesJs": {
         "fileName": "routes.js",
+        "defaultRouteToHook": "v1",
         "temporaryValue": "routerFrom",
         "searchRules": [
             {
