@@ -178,6 +178,34 @@
             }
         ]
     },
+    "fromControllerJs": {
+        "fileName": "controller.js",
+        "temporaryValue": "controllerFrom",
+        "searchRules": [
+            {
+                "searchKey": "npmImport",
+                "regexKey": "importNpmRegex"
+            },
+            {
+                "searchKey": "export",
+                "regexKey": "exportRegex"
+            },
+            {
+                "searchKey": "variableDeclaration",
+                "regexKey": "variablesDeclareHere"
+            }
+        ],
+        "parseRules": [
+            {
+                "searchKey": "npmImport",
+                "parseKey": "importNpmRegex"
+            },
+            {
+                "searchKey": "export",
+                "parseKey": "exportRegex"
+            }
+        ]
+    },
     "tableGetShowAll": {
         "fileName": "end-points.js",
         "temporaryValue": "funcFrom",
@@ -261,34 +289,6 @@
             {
                 "searchKey": "httpRoute",
                 "parseKey": "consumptionRegex"
-            },
-            {
-                "searchKey": "export",
-                "parseKey": "exportRegex"
-            }
-        ]
-    },
-    "fromControllerJs": {
-        "fileName": "controller.js",
-        "temporaryValue": "controllerFrom",
-        "searchRules": [
-            {
-                "searchKey": "npmImport",
-                "regexKey": "importNpmRegex"
-            },
-            {
-                "searchKey": "export",
-                "regexKey": "exportRegex"
-            },
-            {
-                "searchKey": "variableDeclaration",
-                "regexKey": "variablesDeclareHere"
-            }
-        ],
-        "parseRules": [
-            {
-                "searchKey": "npmImport",
-                "parseKey": "importNpmRegex"
             },
             {
                 "searchKey": "export",
