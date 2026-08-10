@@ -1,0 +1,32 @@
+{
+    "version": "11.1",
+    "story": [
+        {
+            "stepName": "start",
+            "fileNames": [
+                "fromAppJs"
+            ]
+        },
+        {
+            "stepName": "mid",
+            "fileNames": [
+                "fromRoutesJs"
+            ]
+        },
+        {
+            "stepName": "end",
+            "fileNames": [
+                "fromRoutesJs",
+                "fromRoutesJsEnd"
+            ]
+        },
+        {
+            "stepName": "methods",
+            "fileNames": [
+                "tableGetShowAll",
+                "tableGetFind",
+                "tablePostShowAll"
+            ]
+        }
+    ]
+}
