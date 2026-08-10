@@ -5,12 +5,20 @@
             "stepName": "start",
             "fileNames": [
                 "fromAppJs"
+            ],
+            "nextSteps": [
+                "mid",
+                "end"
             ]
         },
         {
             "stepName": "mid",
             "fileNames": [
                 "fromRoutesJs"
+            ],
+            "nextSteps": [
+                "mid",
+                "end"
             ]
         },
         {
@@ -18,6 +26,9 @@
             "fileNames": [
                 "fromRoutesJs",
                 "fromRoutesJsEnd"
+            ],
+            "nextSteps": [
+                "methods"
             ]
         },
         {
